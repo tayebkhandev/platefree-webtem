@@ -1,0 +1,279 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#header{
+    position: absolute;
+    z-index: 10;
+    width: 100%;
+}
+.navbar{
+    padding: 0px 10;
+    text-transform: capitalize;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.205);
+    width: 100%;
+}
+.Home{
+    text-transform: capitalize;
+    border-bottom: 2px solid #11749e;
+    width: 70%;
+    margin-left: 20px;
+}
+.nav-item{
+    padding-left: 20px;
+}
+.nav-link{
+    color: #fff;
+    letter-spacing: 1px;
+}
+/* ################################### main $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$*/
+#main{
+    position: relative;
+    /* position: absolute; */
+    background-image: url(back.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* height: 100vh; */
+    width: 100%;
+}
+#main h1{
+    color: #fff;
+    text-align: center;
+    margin-top: 15rem;
+    font-size: 3rem;
+    letter-spacing: 6px;
+    font-weight: 600;
+    font-style: oblique;
+}
+#main #p-power{
+    letter-spacing: 2px;
+    color: #11749e;
+    font-size: 1rem
+}
+#scroll{
+    width: 40px;
+}
+/* ###################################section w $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$*/
+#w-area{
+    background-image: url(banner.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    padding: 100px 0;
+}
+#w-area .row .w-area-web{
+    /* position: absolute; */
+    color: #fff;
+    background-image: url(w.png);
+    padding: 50px 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 50px;
+}
+
+
+/* ###################################section agancy-newes $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$*/
+.agancy-newes .dark-bg{
+    background-color: #222222;
+}
+.agancy-newes .light-bg{
+    background-color: #f3f3f3;
+}
+.agancy-newes .text{
+    max-width: 70%;
+    margin: auto;
+}
+.agancy-newes .text .text-span{
+    display: block;
+    padding: 0 20% 0 10px;
+    background: rgba(64, 109, 243, 0.58);
+    width: max-content;
+}
+/* ###################################blog area $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$*/
+.quick-action .row .quick-action-b{
+    background-image: url(b.png);
+    color: #222222;
+    padding: 38px 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* margin-bottom: 19px; */
+}
+.quick-action .row .quick-action-b .team-text{
+    font-size: 27px;
+    font-weight: 600;
+    letter-spacing: 3px;
+    margin-top: 30px;
+}
+.quick-action .row .quick-action-b .team-text .team-text-2{
+ letter-spacing: 2px;
+}
+
+/* = = = = = == = = = = = = =  = rectangel area =  = = = = = = = = = = = = == = = = =  = */
+.rectangle-area{
+    background-image: url(banner.png);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    background-repeat: no;
+    margin-top: 40px;
+}
+.rectangle-area .row .col-md-6{
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+.rectangle-area .row .col-md-6 .col-md-3{
+    padding-bottom: 15px;
+}
+
+/* = = = = = == = = = = = = =  = quick-action-area =  = = = = = = = = = = = = == = = = =  = */
+.quick-action .row .col-sm-6 h4{
+    font-size: 22px;
+    color: #0000ffb5;
+    padding: 10px 0;
+}
+/* = = = = = == = = = = = = =  = key-feature =  = = = = = = = = = = = = == = = = =  = */
+.key-feature{
+    background-image: url(Untitled-21.png);
+    padding: 40px 0;
+}
+.key-feature .row .col-md-5 img{
+    width: 50%;
+}
+.key-feature .row .col-md-6 .text-span-one{
+    padding: 0px 10px;
+    display: block;
+    background-color: #11749e;
+    width: 223px;
+    margin-bottom: 20px;
+}
+.key-feature .row .col-md-6 .text-span-two{
+    padding: 0px 10px;
+    display: block;
+    background-color: #11749e;
+    width: 257px;
+    margin-bottom: 20px;
+}
+.key-feature .row .col-md-6 .text-span-three{
+    padding: 0px 10px;
+    display: block;
+    background-color: #11749e;
+    width: 290px;
+    margin-bottom: 20px;
+}
+/* = = = = = == = = = = = = =  = team =  = = = = = = = = = = = = == = = = =  = */
+#team .row .col-md-3{
+position: relative;
+}
+#team .row .col-sm-12{
+    background-image: url(t.png);
+    color: #222222;
+    padding: 28px 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 19px
+}
+#team .row .col-sm-12 .team-text{
+    font-size: 27px;
+    font-weight: 600;
+    letter-spacing: 3px;
+    margin-top: 30px;
+}
+#team .row .team-text-2{
+    letter-spacing: 2px;
+}
+#team .row .col-md-3 .heading-team{
+    background-color: #fff;
+    /* border: 2px solid red; */
+    text-align: center;
+    position: absolute;
+    width: 45%;
+    left: 31%;
+    bottom: -35px;
+}
+#team .row .col-md-3 .heading-team span{
+    font-size: 29px;
+    color:#11749e;
+}
+
+
+/* = = = = = == = = = = = = =  = form =  = = = = = = = = = = = = == = = = =  = */
+
+.form{
+    background-image: url(Untitled-27.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    padding: 100px 0;
+}
+ .form .row-cols-md-3 #form{
+    background-color: #2222;
+    border: 1px solid white;
+    padding: 2px 0x;
+    width: 100%;
+    padding: 2px 20px;
+    color: #fff;
+    margin-bottom: 15px; 
+}
+.form .row .bg-darkness{
+    width: 97%;
+    background-color: #222222;
+}
+
+/* = = = = = == = = = = = = =  = map =  = = = = = = = = = = = = == = = = =  = */
+.map-container-3{
+  overflow:hidden;
+  padding-bottom:56.25%;
+  position:relative;
+  height:0;
+}
+.map-container-3 iframe{
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+  position:absolute;
+}
+
+/* = = = = = == = = = = = = =  = footer  =  = = = = = = = = = = = = == = = = =  = */
+.footer-text{
+    float: right;
+}
+
+
+.btn{
+    margin-top: 21px;
+    margin-bottom: 21px;
+}
+
+
+@media (max-width: 767.98px) {
+.key-feature{
+    text-align: center;
+}
+.key-feature .row .col-md-6{
+    order: 1;
+} 
+.key-feature .row .col-md-5 img{
+    width: 94%;
+}  
+}
+@media (max-width: 575.98px) {
+    #team .row .col-sm-6 .heading-team{
+        left: 25%;
+        width: 45%;
+        bottom: 0;
+    }
+    .footerv .row .footerv-text{
+        text-align: center;
+    }
+    .footerv .row .footer-text{
+        display: none;
+    }
+}
+
